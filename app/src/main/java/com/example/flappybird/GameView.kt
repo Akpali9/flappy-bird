@@ -212,7 +212,7 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback 
         }
     }
 
-    fun draw(canvas: Canvas) {
+    override fun draw(canvas: Canvas) {
         val b = bird ?: return
 
         // Sky gradient
