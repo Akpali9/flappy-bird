@@ -17,18 +17,3 @@ A fully functional Flappy Bird clone for Android, built in Kotlin.
 - Don't hit the pipes, ground, or ceiling!
 - After a game over, tap **PLAY AGAIN** to restart
 
-## Project Structure
-```
-FlappyBird/
-├── app/src/main/java/com/example/flappybird/
-│   ├── MainActivity.kt    — Entry point, sets up fullscreen
-│   ├── GameView.kt        — Main game canvas & touch input
-│   ├── GameThread.kt      — 60 FPS game loop
-│   ├── Bird.kt            — Player character with animation
-│   └── Pipe.kt            — Scrolling obstacle pipes
-├── app/src/main/res/
-│   └── values/
-│       ├── strings.xml
-│       └── themes.xml
-└── app/src/main/AndroidManifest.xml
-```
