@@ -1,5 +1,5 @@
 
-# ![Flappy Bird Logo](logo.png) Flappy Bird - Android App
+# Flappy Bird - Android App
 
 A fully functional Flappy Bird clone for Android, built in Kotlin.
 
